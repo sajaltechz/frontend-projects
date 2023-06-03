@@ -1,0 +1,18 @@
+*{
+    background-color: bisque; 
+   text-align: center;
+}
+.page{
+    text-align: center;
+    font-size: 30px;
+    
+    margin: auto;
+    width: 40%;
+    height: 10%;
+    }
+    .dice{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        display:inline-block
+    }

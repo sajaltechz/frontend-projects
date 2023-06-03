@@ -1,0 +1,31 @@
+.container{
+    background-color: #00acee;
+   display: flex;
+   }
+.border{ 
+    width: 98vw;
+height: 63vh;
+padding: 20px;
+font-size: 30px;
+text-align: center;
+}
+input[type= "text"],
+input[type = "password"],
+input
+{
+    width :60vw;
+    
+     border: 2px solid black;
+     box-sizing: 70px;
+     
+}
+.bottombar{
+    background-color: white;
+    width : 98vw;
+    height : 20vh;
+text-align: center;
+padding : 4px 14px;
+}
+input[type="submit"]:hover{
+        background-color:lightblue;
+}

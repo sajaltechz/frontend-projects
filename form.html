@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form action=""></form>
+    <h1 class="main_heading">Payment form</h1>
+    <h2>Contact Information</h2>
+    <p>required fied *</p>
+   <p>Name: *<input type="text" name="name" required  placeholder="sajal"></p>
+   <!we use input tag if we want to obtain value from user; 
+   placeholder is used to define what place of vslues u put and it disaapears as soon u type in box>
+    <fieldset><! use to draw box >
+        <legend>Gender*</legend>
+    <p>
+        male <input type="radio" name="gender" id="male" >
+        Female <input type="radio" name="gender" id="female"></fieldset>
+        <!we use radio if from given to option one has to be selected>
+        </p>
+    <p>Address : <textarea name="address" id="address" cols="110" rows="10"></textarea></p>
+    <p>email: * <input type="email" Name="email" id="email" required></p>
+<p>pincode : *<input type="number" name="pincode" id="pincode" required></p> 
+<h2>Payment Information</h2>
+<p>card type:*
+    <select name="card_type" id="card_type" required>
+        <option value=">--select a card type--<"></option>
+        <option value="visaa">visaa</option>
+<option value="rupay">rupay</option>
+<option value="master card">master card</option>
+</select>
+</p> 
+<p>card number * <input type="number" name="card_number" id="card_number" required></p>
+<p>
+    expiration date :* <input type="date" name="exp_date" id="exp_date" required>
+</p> 
+<p>CVV * <input type="password" name="cvv" id="cvv" required></p>
+<input type="submit" value="PAY NOW">
+    
+</body>
+</html>

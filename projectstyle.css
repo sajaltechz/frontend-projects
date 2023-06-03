@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+.container{
+    
+    background-color: coral;
+    display: flex;
+    
+    
+}
+.main{
+   /* background-color:black;*/
+    
+    font-size: larger ;
+    width: 15vw;
+    height: 50vh;
+    margin: 30px;
+   
+}.sidebar nav{
+    padding: 10px;
+}
+.sidebar{
+    background-color:bisque;
+    padding: 10px;
+    font-size: 20px;
+    height: 100vh;
+    text-decoration-color: blue;
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 30px;
+    padding: 10px;
+    }
+.sidebar nav li a{
+    text-decoration: none;
+    color: brown;
+}
+.infocontainer{
+    /*background-color: pink;*/
+    height: 60vh;
+    width: 70vw;
+    margin: 50px;
+        display: flex;
+        justify-content: space-around;}
+   
+.divpic img{
+        height: 60vh;
+        }
+.devinfo{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.hello{
+font-size: 50px;
+font-family: 'Lora', serif;
+margin-top: 10px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Lora', serif;
+}
+.about{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.divbutton{
+    margin-top: 30px;
+          }
+   .divbutton button{
+    background-color :blanchedalmond;
+    padding: 10px 9px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+   }
+   
+   .contactform{
+    font-family: 'Lora', serif;
+    padding-top: 20px;
+    white-space: nowrap;
+    font-size: 25px;
+               }
+.contactform h1{
+    font-family: 'Lora', serif;
+    text-align: center;
+    white-space: nowrap;
+    
+               }
+ .contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .contactform form div input{
+        width: 16vw;
+        border-radius: 5px;
+        margin: 6px 0;
+        padding: 3px;
+    }
+
+ #emailHelp{
+        font-size: 15px;
+        color: midnightblue;
+        margin: 0 5px;
+        border-radius: 30px;
+
+    }
